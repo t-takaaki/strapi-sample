@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_singles",
+  "info": {
+    "name": "test-single"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "input": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "mail": {
+      "type": "email"
+    }
+  }
+}
